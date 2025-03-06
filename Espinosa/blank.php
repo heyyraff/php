@@ -36,10 +36,17 @@
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
-                                DataTable Example
-                            </div>
-                            <div class="card-body">
+                                <i class="fas fa-table me-1" ></i>
+                                DataTable Example </div>
+                                <nav>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-record-tab" data-bs-toggle="tab" data-bs-target="#nav-record" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Record</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Data Entry</button>
+
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-record" role="tabpanel" aria-labelledby="nav-record-tab" tabindex="0">                            <div class="card-body">
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
@@ -96,7 +103,21 @@
                                        
                                     </tbody>
                                 </table>
+                            </div></div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0"><div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <div><button type="button" class="btn btn-primary">Submit</button></div>
+  
+</div></div>
+  
+</div>
                             </div>
+
                         </div>
                     </div>
                 </main>
